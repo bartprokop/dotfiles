@@ -1,0 +1,6 @@
+# https://github.com/seyhunak/dotfiles/blob/master/aliases.zsh
+
+# Show human friendly numbers and colors
+alias df='df -h'
+alias du='du -h -d 2'
+alias ll='ls -alGh'
