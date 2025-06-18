@@ -1,5 +1,8 @@
 # https://github.com/seyhunak/dotfiles/blob/master/aliases.zsh
 
+# Homebrew
+alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
+
 # Show human friendly numbers and colors
 alias df='df -h'
 alias du='du -h -d 2'
