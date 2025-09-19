@@ -4,7 +4,20 @@
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
 
 # Show human friendly numbers and colors
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 alias df='df -h'
 alias du='du -h -d 2'
-alias ll='ls -alGh'
+#alias ll='ls -alGh'
+
+# https://github.com/Phantas0s/.dotfiles/blob/master/aliases/aliases
+
+# +----+
+# | ls |
+# +----+
+
+alias ls='ls --color=auto'
+alias l='ls -l'
+alias ll='ls -lahF'
+alias lls='ls -lahFtr'
+alias la='ls -A'
+alias lc='ls -CF'
