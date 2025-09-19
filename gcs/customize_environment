@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# copy this file to $HOME/.customize_environment
+# https://cloud.google.com/shell/docs/configuring-cloud-shell
+
+apt-get update
+apt-get -y install age
