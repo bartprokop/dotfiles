@@ -2,6 +2,9 @@
 
 # copy this file to $HOME/.customize_environment
 # https://cloud.google.com/shell/docs/configuring-cloud-shell
+#
+# cp customize_environment ~/.customize_environment
 
 apt-get update
-apt-get -y install age
+apt-get install -y age
+apt-get install -y zsh
