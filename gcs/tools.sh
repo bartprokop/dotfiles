@@ -8,5 +8,9 @@ rm starship-x86_64-unknown-linux-musl.tar.gz
 # 103  echo 'eval "$(starship init bash)"'
 # 104  echo 'eval "$(starship init bash)"' >> .bashrc 
 
-# curl https://raw.githubusercontent.com/dylanaraps/neofetch/refs/heads/master/neofetch > ~/bin/neofetch
-# chmod +x ~/bin/neofetch
+# Install neofetch
+curl https://raw.githubusercontent.com/dylanaraps/neofetch/refs/heads/master/neofetch > ~/bin/neofetch
+chmod +x ~/bin/neofetch
+
+# wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.52.0/fastfetch-linux-amd64.zip
+# rm fastfetch-linux-amd64.zip

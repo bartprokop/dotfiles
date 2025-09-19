@@ -4,6 +4,7 @@
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
 
 # Show human friendly numbers and colors
+alias ls='ls --color=auto'
 alias df='df -h'
 alias du='du -h -d 2'
 alias ll='ls -alGh'
