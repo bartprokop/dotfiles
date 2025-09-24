@@ -6,5 +6,9 @@
 # cp customize_environment ~/.customize_environment
 
 apt-get update
+
+# install (system-wide) all tools available in official repo, that I might need
 apt-get install -y age
+
+# zsh is installed as last one, so you cannot zsh before everything is ready for you.
 apt-get install -y zsh
