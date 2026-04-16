@@ -1,10 +1,30 @@
-# dotfiles
+# My own dotfiles
+
 Finally I decided to have my own dot files...
 
 ## First setup
 
+### SSH Key Generation
+
 ```
-ssh-keygen -t ed25519
+ssh-keygen -t ed25519 -C "joanna@f.....a.uk"
+cat .ssh/id_ed25519.pub
+```
+
+### Git Configuration
+
+```
+git config --global user.name "Joanna Kmiec"
+git config --global user.email "joanna@f.....a.uk"
+
+# Tell Git you want to use SSH for signing, not GPG
+git config --global gpg.format ssh
+
+# Point Git to your public key (adjust the path if you used a custom name)
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+
+# Tell Git to sign every single commit automatically
+git config --global commit.gpgsign true
 ```
 
 ### Homebrew
