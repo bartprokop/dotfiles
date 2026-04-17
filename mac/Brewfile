@@ -1,0 +1,8 @@
+brew "bat"
+brew "eza"
+brew "fastfetch"
+brew "fish"
+brew "git"
+brew "lsd"
+cask "ghostty"
+cask "google-chrome"
